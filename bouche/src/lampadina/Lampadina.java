@@ -10,7 +10,7 @@ public class Lampadina { //prima attributi
     //secondo i costruttori 
     //costruttore : inizializza il valore degli attributi
 
-    public lampadina(String marca, String colore, int nMaxAcc,
+    public Lampadina(String marca, String colore, int nMaxAcc,
             int nAcc, boolean stato) {
         this.marca = marca; //assegno il valore della variabile locale alla variabile di istanza
         this.colore = colore;
