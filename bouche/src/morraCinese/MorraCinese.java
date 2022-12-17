@@ -38,6 +38,7 @@ public class MorraCinese {
         int mano = 0;
         
 
+        /*
         switch (giocataG2){
             case 1:
                 testo = "CARTA";
@@ -61,8 +62,16 @@ public class MorraCinese {
             default:
                 if(giocataG1 < 1 || giocataG1 > 3){
                 testo = "giocata non prevista";}
-          }  
-          
+          }
+        */
+        
+       /* 
+        enum Mossa{
+        CARTA,
+        FORBICE,
+        SASSO
+        }
+       */  
          
         if (giocataG1 == 1) {
             mossa1 = "forbici";

@@ -7,6 +7,8 @@ public class MorraCineseTest {
        String nome1;
        String nome2; // crei due variabili per tenere i nomi
        
+       // Mossa myVar = Level.CARTA;
+       
        nome1 = JOptionPane.showInputDialog(null, "Nome del computer?","nome comp", JOptionPane.QUESTION_MESSAGE); // creo le finestre in cui chiedo l'imput dei nomi
        nome2 = JOptionPane.showInputDialog(null, "Nome del'utente?","nome utente", JOptionPane.QUESTION_MESSAGE); 
                 
@@ -29,8 +31,10 @@ public class MorraCineseTest {
         temp = JOptionPane.showInputDialog(null, "Inserisci un numero:\n 1 = forbici \n 2 = sasso \n 3 =     carta","selezione mossa", JOptionPane.QUESTION_MESSAGE);
         inputg2 = Integer.parseInt(temp); // permette di trsformare una stringa in un numero intero, se si ha una lettera però, ilprogramma da errore 
         JOptionPane.showMessageDialog(null, m1.gioca(inputg2), "risultato", JOptionPane.INFORMATION_MESSAGE);
-    }
     
+        
+    }
+     
 }
 
     
