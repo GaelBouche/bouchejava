@@ -35,7 +35,35 @@ public class MorraCinese {
         String mossa1 = "";
         String mossa2 = "";
         int giocataG1 = r1.nextInt(3) + 1;
+        int mano = 0;
+        
 
+        switch (giocataG2){
+            case 1:
+                testo = "CARTA";
+            case 2:
+                testo = "FORBICE";
+            case 3: 
+                testo = "SASSO";
+                break;
+            default:
+                if(giocataG2 < 1 || giocataG2 > 3){
+                testo = "giocata non prevista";}
+        }
+          switch (giocataG1){
+            case 1:
+                testo = "CARTA";
+            case 2:
+                testo = "FORBICE";
+            case 3: 
+                testo = "SASSO";
+                break;
+            default:
+                if(giocataG1 < 1 || giocataG1 > 3){
+                testo = "giocata non prevista";}
+          }  
+          
+         
         if (giocataG1 == 1) {
             mossa1 = "forbici";
         } else {
@@ -84,4 +112,4 @@ public class MorraCinese {
     public String stampa() {
         return "Nome computer: " + g1 + "\nNome giocatore: " + g2;
     }
-}
+ }
